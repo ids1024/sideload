@@ -11,7 +11,7 @@ Build-Depends: debhelper (>= 10.5.1),
 Standards-Version: 4.1.1
 
 Package: io.elementary.sideload
-Architecture: amd64
+Architecture: amd64 arm64
 Depends: ${misc:Depends}, ${shlibs:Depends}, flatpak
 Description: Install apps downloaded from the Internet
  Sideload is a stand-alone Flatpak installer
